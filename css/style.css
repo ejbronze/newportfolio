@@ -167,18 +167,28 @@ hr {
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	color: White;
-	text-shadow: #000 2px 1px 5px;
+	text-shadow: black 0 5px 5px;
 }
 .intro p {
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
 	color: White;
-	text-shadow: #000 2px 1px 5px;
+	text-shadow: black 0 5px 5px;
 }
 header .intro-text {
 	padding-top: 200px;
 	padding-bottom: 200px;
+}
+header a{
+	font-size: 65px;
+	color: white;
+	text-shadow: black 0 5px 5px;
+}
+header a:hover{
+	font-size: 65px;
+	color: orange;
+	text-shadow: black 0 5px 5px;
 }
 /* About Section */
 #about {
