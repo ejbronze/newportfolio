@@ -91,13 +91,16 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: #f6f6f6;
+	background-color: orange;
 	border-radius: 0px;
 	padding: 10px 0;
 	border-bottom: 2px solid #fff;
 }
 .navbar-custom a {
-	color: #555;
+	color: black;
+	/* text-shadow: black 0px 0px 6px; */
+	/* border-right: 1px solid white; */
+	border-bottom: 1px solid white;
 }
 .navbar-custom .nav li a {
 	margin: 0 60px;
@@ -109,8 +112,11 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #000;
+	color: white;
 	background-color: transparent;
+	text-shadow: black 0px 0px 6px;
+	/* border-left: 1px solid black; */
+	border-bottom: 1px solid black;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
@@ -128,7 +134,7 @@ hr {
 }
 .btn-default {
 	text-transform: uppercase;
-	color: #555;
+	color: #555; 
 	background-color: transparent;
 	border-color: #777;
 	padding: 14px 20px;
@@ -136,10 +142,15 @@ hr {
 	font-size: 16px;
 	border-radius: 0;
 	margin-top: 20px;
+	/* color: #fff; */
+	/* text-shadow: black 0px 0px 6px;
+	background-color: orange;
+	border-color: #121d1f; */
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #fff;
-	background-color: #121d1f;
+	text-shadow: black 0px 0px 6px;
+	background-color: orange;
 	border-color: #121d1f;
 }
 /* Header Section */
