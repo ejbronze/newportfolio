@@ -8,7 +8,7 @@ body, html {
 }
 h2 {
 	margin: 0 0 20px 0;
-	color: #555;
+	color: Black;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 400;
@@ -97,7 +97,7 @@ hr {
 	border-bottom: 2px solid #fff;
 }
 .navbar-custom a {
-	color: black;
+	color: #333;
 	/* text-shadow: black 0px 0px 6px; */
 	/* border-right: 1px solid white; */
 	border-bottom: 1px solid white;
@@ -134,22 +134,26 @@ hr {
 }
 .btn-default {
 	text-transform: uppercase;
-	color: #555; 
-	background-color: transparent;
-	border-color: #777;
+	/* color: #555;  */
+	/* background-color: transparent; */
+	/* border-color: #777; */
 	padding: 14px 20px;
 	margin: 0;
 	font-size: 16px;
 	border-radius: 0;
 	margin-top: 20px;
+
+	background: #222;
+	border: 1px solid #222;
+	color: #fff;
 	/* color: #fff; */
 	/* text-shadow: black 0px 0px 6px;
 	background-color: orange;
 	border-color: #121d1f; */
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	color: #fff;
-	text-shadow: black 0px 0px 6px;
+	color: #333;
+	/* text-shadow: black 0px 0px 6px; */
 	background-color: orange;
 	border-color: #121d1f;
 }
@@ -208,6 +212,7 @@ header a:hover{
 #about .about-text {
 	margin-left: 10px;
 	text-align: center;
+	color: #333;
 }
 #about img {
 	border-radius: 50%;
@@ -237,19 +242,31 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	border: 1px solid #777;
-	color: #555;
+	/* border: 1px solid #777; */
+	/* color: #555; */
 	padding: 8px 20px;
+
+	/* color: #fff;
+	text-shadow: black 0px 0px 6px;
+	background-color: orange;
+	border-color: #121d1f; */
+
+	background: #222;
+	border: 1px solid #222;
+	color: #fff;
 }
 ol.type li a.active {
-	background: #222;
-	border: 1px solid #222;
-	color: #fff;
+	color: #333;
+	/* text-shadow: black 0px 0px 3px; */
+	background-color: orange;
+	/* border-color: #121d1f; */
 }
 ol.type li a:hover {
-	background: #222;
+	background: orange;
 	border: 1px solid #222;
-	color: #fff;
+	color: #333;
+	/* color: orange; */
+	/* text-shadow: black 0 5px 2px; */
 }
 .isotope-item {
 	z-index: 2
