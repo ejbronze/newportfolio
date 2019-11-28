@@ -182,7 +182,7 @@ hr {
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	color: White;
-	text-shadow: black 0 5px 5px;
+	text-shadow: 1px -2px 1px #000, -3px 3px 5px orange;
 }
 .intro p {
 	font-size: 20px;
