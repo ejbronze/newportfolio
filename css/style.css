@@ -6,6 +6,9 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+button i {
+	color:white !important;
+}
 h2 {
 	margin: 0 0 20px 0;
 	color: Black;
@@ -307,7 +310,9 @@ ol.type li a:hover {
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 }
-.portfolio-item:hover {
+
+
+.portfolio-item:hover{
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
@@ -315,17 +320,18 @@ ol.type li a:hover {
 	transform: scale(1.1);
 }
 .portfolio-item .hover-bg {
-	height: 120px;
+	height: 80px;
 	overflow: hidden;
 	position: relative;
 }
+
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 20% 0 0 0;
+	padding: 10% 0 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
